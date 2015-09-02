@@ -1,0 +1,112 @@
+.conteudo{
+	 background-color:#8c4689;
+	 background-image:-moz-linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:-webkit-linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:-ms-linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:-o-linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:-webkit-gradient(linear, right bottom, left bottom, color-stop(41%,#680873), color-stop(100%,#052afc));
+
+}
+#logo{
+	width: 100%;
+	height: 100%;
+}
+
+#heroi{
+    float:none; 
+    display:block; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.k-item.k-state-default.k-first
+{
+    margin-left: 40%;
+    border-style: none;
+}
+.k-menu.k-header
+{
+    border-color: #0F22B1;
+    background-color: #0CA2F3;
+}
+.km-ios7 .km-view-title
+{
+    background-color:#3371B7;
+}
+.km-ios7 .km-tabstrip .km-button
+{
+    background-color:#3371B7;
+}
+.km-ios7 .k-list, .km-ios7 .k-slider, .km-ios7 .km-widget{
+    color: purple;
+}
+.km-ios7 .km-tabstrip .km-button:not(.km-state-active){
+	color: purple;
+}
+.menugeral{
+    font-size: 16px;
+}
+
+.conteudo h3{
+	text-align: center;
+	color: #ffffcc;
+	border: none;
+	text-shadow: none;
+}
+
+.hero h3{
+	text-align: center;
+	color: #ffffcc;
+	border: none;
+	text-shadow: none;
+}
+.hero h4{
+	text-align: center;
+	color: #ffffcc;
+	border: none;
+	text-shadow: none;
+}
+.hero h2{
+	text-align: center;
+	color: #ffffcc;
+	border: none;
+	text-shadow: none;
+}
+.hero
+{
+	 background-color:#8c4689;
+	 background-image:-moz-linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:-webkit-linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:-ms-linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:-o-linear-gradient(right, #680873 41%, #052afc 100%);
+	 background-image:-webkit-gradient(linear, right bottom, left bottom, color-stop(41%,#680873), color-stop(100%,#052afc));
+}
+
+#panelbar {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.panelhero:after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.panelhero h2 {
+    font-size: 1.4em;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.panelhero p {
+    margin: 0;
+}
+.panelhero img {
+    float: left;
+    margin: 5px 15px 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}

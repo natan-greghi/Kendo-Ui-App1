@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/kendo.common.min.css" />
+        <link rel="stylesheet" href="css/kendo.default.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <title>Muradin</title>
+</head>
+<body>
+
+    <div id="muradin" data-role="view" data-layout="default">
+       <div class="hero">
+        <h2>Muradin</h2>
+        <h3>The King of Mountain</h3>
+        <img src="img/Muradin.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <h3> História : </h3>
+        <h4>During the Second War, Muradin served as official liaison between Lordaeron and Khaz Modan, and accompanied the Alliance armies shortly before the battles at Blackrock Spire and the Dark Portal. During that time period he grew close to the Royal Family, and befriended the young Prince Arthas. As Arthas grew up, Muradin took it upon himself to teach the lad all he knew about fighting with blades and the two became close companions on many adventures.</h4>
+        </div>
+    </div>
+
+     <section data-role="layout" data-id="default">
+        <header data-role="header">
+            <div data-role="navbar"> Muradin</div>
+        </header>
+        <footer data-role="footer">
+            <div data-role="tabstrip">
+                <a href="#habilidades" data-icon="favorites">Habilidades</a>
+                <a href="index.html" data-icon="home">Home</a>
+            </div>
+        </footer>
+    </section>
+
+<div id="habilidades" data-role="view" data-layout="default">
+            <ul id="panelbar">
+                <li class="k-state-active">
+                    <span class="k-link k-state-selected">Habilidades</span>
+                    <div style="padding: 10px;">
+                        <div class="panelhero">
+                            <img src="img/guer2/D.png">
+                            <h2>D: Second Wind</h2>
+                            <p> Restore 15.6 (+3.6 per level) Health per second when you have not taken damage for 4 seconds. When below 40% Health, increased to 31.2 (+7.2 per level) Health per second.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/guer2/Q.png">
+                            <h2>Q: Stormbolt </h2>
+                            <p> Cooldown: 10s</p>
+                            <p> Throw a hammer, dealing 40 (+10 per level) damage to the first enemy unit hit and stunning it for 1.5 seconds. Has a 10 second cooldown.</p>
+                        </div>
+                       <div class="panelhero">
+                            <img src="img/guer2/W.png">
+                            <h2>W: Thunderclap</h2>
+                            <p> Cooldown: 8s</p>
+                            <p> Deals 50 (+8 per level) damage in an area around Muradin and slows enemy units by 25% for 2.5 seconds. Has a 8 second cooldown.</p>
+                            </div>
+                        <div class="panelhero">
+                            <img src="img/guer2/E.png">
+                            <h2>E: Dwarf Toss</h2>
+                            <p> Cooldown: 12s</p>
+                            <p> Leap to target location, dealing 35 (+5 per level) damage to enemies on landing.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/guer2/R1.png">
+                            <h2>R: Avatar</h2>
+                            <p> Cooldown: 100s</p>
+                            <p> Transform for 20 seconds, gaining 416 (+96 per level) Health and causing your Basic Attacks to stun enemies.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/guer2/R2.png">
+                            <h2>R: Haymaker</h2>
+                            <p> Cooldown: 40s</p>
+                            <p> Stun target enemy Hero, and wind up a punch dealing 320 (+20 per level) damage and knocking the target back, hitting enemies in the way for 80 (+5 per level) damage and knocking them aside.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+     </div>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+
+    <script>
+         var app = new kendo.mobile.Application();
+    </script>
+</body>
+</html>

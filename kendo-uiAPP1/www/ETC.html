@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/kendo.common.min.css" />
+        <link rel="stylesheet" href="css/kendo.default.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <title>E.T.C</title>
+</head>
+<body>
+
+	<div id="etc" data-role="view" data-layout="default">
+       <div class="hero">
+        <h2>E.T.C</h2>
+        <h3>Rock God</h3>
+        <img src="img/ETC.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <h3> História : </h3>
+        <h4>Elite Tauren Chieftain is an American band comprised of employees of Blizzard Entertainment. The band's virtual alter ego, The Tauren Chieftains, appear in World of Warcraft as a band comprised of members of the Horde, and retain the logo used by the Level 70 Elite incarnation of the real-life band.</h4>
+        </div>
+    </div>
+
+    <section data-role="layout" data-id="default">
+        <header data-role="header">
+            <div data-role="navbar"> E.T.C</div>
+        </header>
+        <footer data-role="footer">
+            <div data-role="tabstrip">
+                <a href="#habilidades" data-icon="favorites">Habilidades</a>
+                <a href="index.html" data-icon="home">Home</a>
+            </div>
+        </footer>
+    </section>
+
+    <div id="habilidades" data-role="view" data-layout="default">
+            <ul id="panelbar">
+                <li class="k-state-active">
+                    <span class="k-link k-state-selected">Habilidades</span>
+                    <div style="padding: 10px;">
+                        <div class="panelhero">
+                            <img src="img/guer1/D.png">
+                            <h2>D: Rockstar</h2>
+                            <p> When you use a Basic or Heroic ability, give 20% Attack Speed for 4 seconds to all nearby allied Heroes.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/guer1/Q.png">
+                            <h2>Q: Powerslide </h2>
+                            <p> Cooldown: 12s</p>
+                            <p> Slide to a location dealing 67 (+7 per level) damage and stunning enemies hit for 1 second.</p>
+                        </div>
+                       <div class="panelhero">
+                            <img src="img/guer1/W.png">
+                            <h2>W: Face Melt</h2>
+                            <p> Cooldown: 12s</p>
+                            <p> Deals 55 (+5 per level) damage to nearby enemies, knocking them back.</p>
+                            </div>
+                        <div class="panelhero">
+                            <img src="img/guer1/E.png">
+                            <h2>E: Guitar Solo</h2>
+                            <p> Cooldown: 8s</p>
+                            <p> Regenerate 31 (+6 per level) Health per second for 4 seconds.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/guer1/R1.png">
+                            <h2>R: Mosh Pit</h2>
+                            <p> Cooldown: 120s</p>
+                            <p> After 0.75 seconds, channel to stun nearby enemies for 4 seconds.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/guer1/R2.png">
+                            <h2>R: Stage Dive</h2>
+                            <p> Cooldown: 70s</p>
+                            <p> Leap to any location. Deals 112 (+12 per level) damage to enemies in the area, slowing them for 3 seconds.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+     </div>
+
+	<script src="js/jquery.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+
+    <script>
+         var app = new kendo.mobile.Application();
+    </script>
+</body>
+</html>

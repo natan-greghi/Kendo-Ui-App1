@@ -1,0 +1,89 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/kendo.common.min.css" />
+        <link rel="stylesheet" href="css/kendo.default.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <title>Jaina</title>
+</head>
+<body>
+     <div id="Jaina" data-role="view" data-layout="default">
+        <div class="hero">
+            <h2>Jaina</h2>
+            <h3>Archmage</h3>
+            <img src="img/Jaina.png" id="heroi">
+            <h3>Tipo: Assassin</h3>
+            <h3> História : </h3>
+            <h4>....</h4>
+        </div>
+     </div>
+
+      <section data-role="layout" data-id="default">
+        <header data-role="header">
+            <div data-role="navbar"> Jaina</div>
+        </header>
+        <footer data-role="footer">
+            <div data-role="tabstrip">
+                <a href="#habilidades" data-icon="favorites">Habilidades</a>
+                <a href="index.html" data-icon="home">Home</a>
+            </div>
+        </footer>
+    </section>
+
+<div id="habilidades" data-role="view" data-layout="default">
+    <ul id="panelbar">
+        <li class="k-state-active">
+            <span class="k-link k-state-selected">Habilidades</span>
+            <div style="padding: 10px;">
+                <div class="panelhero">
+                   <img src="img/assa1/D.png">
+                    <h2>Frostbite</h2>
+                    <p> All abilities Chill targets, slowing Movement Speed by 25% and amplifying damage from your abilities by 50% . Lasts 4 seconds.</p>
+                </div>
+                <div class="panelhero">
+                    <img src="img/assa1/Q.png">
+                    <h2>Q: Frostbolt</h2>
+                    <p> Cooldown: 4s</p>
+                    <p> Deal 65 (+15 per level) damage and Chill the target.</p>
+                </div>
+               <div class="panelhero">
+                    <img src="img/assa1/W.png">
+                    <h2>W: Blizzard</h2>
+                    <p> Cooldown: 15s</p>
+                    <p> Bombard an area with 2 waves of ice, dealing 61 (+16 per level) damage each. Damaged enemies are Chilled.</p>
+                    </div>
+                <div class="panelhero">
+                    <img src="img/assa1/E.png">
+                    <h2>E: Cone of Cold</h2>
+                    <p> Cooldown: 10s</p>
+                    <p> Deal 73 (+18 per level) damage and Chill targets.</p>
+                </div>
+                <div class="panelhero">
+                    <img src="img/assa1/R1.png">
+                    <h2>R: Summon Water Elemental</h2>
+                    <p> Cooldown: 80s</p>
+                    <p>Summons a Water Elemental at target location, dealing 72 (+7 per level) damage and Chilling nearby enemies. The Water Elemental's Basic Attacks do 56 (+6 per level) damage, splash for 25% damage and Chill. Can reactivate the Ability to retarget the Water Elemental. Lasts 20 seconds.</p>
+                </div>
+                <div class="panelhero">
+                    <img src="img/assa1/R2.png">
+                    <h2>R: Ring of Frost</h2>
+                    <p> Cooldown: 100s</p>
+                    <p> After a 1.5 second delay, create a Ring of Frost in an area that deals 224 (+24 per level) damage and roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+
+    <script>
+         var app = new kendo.mobile.Application();
+    </script>
+</body>
+</html>

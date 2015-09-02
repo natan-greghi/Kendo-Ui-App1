@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+        <title>Heroes of The Storm</title>
+
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    
+        <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/kendo.common.min.css" />
+        <link rel="stylesheet" href="css/kendo.default.min.css" />
+        <link rel="stylesheet" href="css/kendo.mobile.all.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+</head>
+
+<body>
+    <div id="home" data-role="view" data-layout="default">
+        <ul data-role="listview" data-type="group">
+            <li>
+                <ul>
+                    <li>
+                        <ul data-role="buttongroup" data-index="0" class="km-justified">
+                            <li data-icon="toprated"><a href="#" id="suporte1">Suporte</a></li>
+                            <li data-icon="featured"><a href="#" id="guerreiro1">Guerreiro </a></li>
+                            <li data-icon="arrow-e"><a href="#" id="especialista1">Especialista </a></li>
+                            <li data-icon="globe"><a href="#" id="assassino1">Assassino </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- <div class="menugeral">
+                <ul id="menu">
+                 <li>Herois
+                 <ul>
+                    <li></li>
+                    <li><a href="#" id="suporte1">Suporte </a></li>
+                    <li><a href="#" id="guerreiro1">Guerreiro </a></li>
+                    <li><a href="#" id="especialista1">Especialista </a></li>
+                    <li><a href="#" id="assassino1">Assassino </a></li>
+                </ul>
+                </li>
+                </ul>
+        </div> -->
+
+         <div class="conteudo" id="replacement-target">
+            <img id="logo"src="img/fundo.jpg" >
+        </div>
+    </div> 
+
+ <div data-role="view" id="suporte">
+        <h3>Tyrande</h3>
+        <a href="Tyrande.html"><img src="img/Tyrande.png" id="heroi"></a>
+        <h3>Tipo: Suporte</h3>
+        <hr>
+        <h3>Brithwing</h3>
+        <a href="Brithwing.html"><img src="img/Brithwing.png" id="heroi"></a>
+        <h3>Tipo: Suporte</h3>
+        <hr>
+        <h3>Uther</h3>
+        <a href="Uther.html"><img src="img/Uther.png" id="heroi"> </a>
+        <h3>Tipo: Suporte</h3>
+        <hr>
+        <h3>Malfurion</h3>
+        <img src="img/Malfurion.png" id="heroi">
+        <h3>Tipo: Suporte</h3>
+        <hr>
+        <h3>Rehgar</h3>
+        <img src="img/Rehgar.png" id="heroi">
+        <h3>Tipo: Suporte</h3>
+        <hr>
+        <h3>lili</h3>
+        <img src="img/Lili.png" id="heroi">
+        <h3>Tipo: Suporte</h3>
+        <hr>
+        <h3>Tassadar</h3>
+        <img src="img/Tassadar.png" id="heroi">
+        <h3>Tipo: Suporte</h3>
+        <hr>
+    </div>
+    <!-- page dos herois do tipo guerreiro -->
+    <div data-role="view" id="guerreiro">
+        <h3>ETC</h3>
+        <a href="ETC.html"><img src="img/etc.png" id="heroi"> </a>
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Muradin</h3>
+        <a href="Muradin.html"><img src="img/Muradin.png" id="heroi"></a>
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Leoric</h3>
+        <img src="img/Leoric.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Johanna</h3>
+        <img src="img/Johanna.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Suturino</h3>
+        <img src="img/Suturino.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Tyrael</h3>
+        <img src="img/Tyrael.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Diablo</h3>
+        <img src="img/Diablo.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Chen</h3>
+        <img src="img/Chen.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Anubarak</h3>
+        <img src="img/Anubarak.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+        <h3>Arthas</h3>
+        <img src="img/Arthas.png" id="heroi">
+        <h3>Tipo: Guerreiro</h3>
+        <hr>
+    </div>
+    <!-- page dos herois do tipo Especialista -->
+    <div data-role="view" id="especialista">
+        <h3>Zagara</h3>
+        <a href="Zagara.html"><img src="img/Zagara.png" id="heroi"></a>
+        <h3>Tipo: Especialista</h3>
+        <hr>
+        <h3>Sylvanas</h3>
+        <a href="Sylvannas.html"><img src="img/Sylvannas.png" id="heroi"></a>
+        <h3>Tipo: Especialista</h3>
+        <hr>
+        <h3>Gazlowe</h3>
+        <img src="img/Gazlowe.png" id="heroi">
+        <h3>Tipo: Especialista</h3>
+        <hr>
+        <h3>Azmodan</h3>
+        <img src="img/Azmodan.png" id="heroi">
+        <h3>Tipo: Especialista</h3>
+        <hr>
+        <h3>Abathur</h3>
+        <img src="img/Abathur.png" id="heroi">
+        <h3>Tipo: Especialista</h3>
+        <hr>
+        <h3>Nazeboo</h3>
+        <img src="img/Nazeboo.png" id="heroi">
+        <h3>Tipo: Especialista</h3>
+        <hr>
+        <h3>Sgt.Hammer</h3>
+        <img src="img/Hammer.png" id="heroi">
+        <h3>Tipo: Especialista</h3>
+        <hr>
+        <h3>Lost Vikings</h3>
+        <img src="img/Vikings.png" id="heroi">
+        <h3>Tipo: Especialista</h3>
+        <hr>
+        <h3>Murky</h3>
+        <img src="img/Murky.png" id="heroi">
+        <h3>Tipo: Especialista</h3>
+        <hr>
+    </div>
+    <!-- page dos herois do tipo Assassino -->
+    <div data-role="view" id="assassino">
+        <h3>Jaina</h3>
+        <a href="Jaina.html"><img src="img/Jaina.png" id="heroi"></a>
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Raynor</h3>
+        <a href="Raynor.html"><img src="img/Raynor.png" id="heroi"></a>
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Butcher</h3>
+        <img src="img/Butcher.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Falstad</h3>
+        <img src="img/Falstad.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Illidan</h3>
+        <img src="img/Illidan.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Kaelthas</h3>
+        <img src="img/Kael.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Kerrigan</h3>
+        <img src="img/Kerrigan.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Nova</h3>
+        <img src="img/Nova.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Thrall</h3>
+        <img src="img/Thrall.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Tychus</h3>
+        <img src="img/Tychus.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Valla</h3>
+        <img src="img/Valla.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+        <h3>Zeratul</h3>
+        <img src="img/Zerathul.png" id="heroi">
+        <h3>Tipo: Assassino</h3>
+        <hr>
+    </div>
+    <!-- Fim do bloco da pagina Principal -->
+
+    <section data-role="layout" data-id="default">
+        <header data-role="header">
+            <div data-role="navbar"> Heroes Info</div>
+        </header>
+        <footer data-role="footer">
+            <div data-role="tabstrip">
+                <a href="#home" data-icon="home"></a>
+            </div>
+        </footer>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+    
+
+    <script type="text/javascript">
+            app.initialize();
+    </script>
+
+<style>
+    .km-arrow-e:after,
+    .km-arrow-e:before
+    {
+        content: "\e045";
+    }
+</style>
+    <script>
+        var app = new kendo.mobile.Application();
+        $("#guerreiro1").click(function () {
+            $('#replacement-target').html($('#guerreiro').html());
+        });
+        
+        $("#suporte1").click(function () {
+            $('#replacement-target').html($('#suporte').html());
+        });
+
+         $("#especialista1").click(function () {
+            $('#replacement-target').html($('#especialista').html());
+        });
+         $("#assassino1").click(function () {
+            $('#replacement-target').html($('#assassino').html());
+        });
+         $("#heroi").click(function () {
+            $('#menu').collapsible( 'destroy');
+        });
+        
+    </script>
+
+</body>
+
+
+</html>

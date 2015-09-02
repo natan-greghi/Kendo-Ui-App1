@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/kendo.common.min.css" />
+        <link rel="stylesheet" href="css/kendo.default.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <title>Zagara</title>
+</head>
+<body>
+
+	<div id="zagara" data-role="view" data-layout="default">
+        <div class="hero">
+            <h2>Zagara</h2>
+            <h3>Broodmother of the Swarm</h3>
+            <img src="img/Zagara.png" id="heroi">
+            <h3>Tipo: Especialista</h3>
+            <h3> História : </h3>
+            <h4>Like many of the Queen of Blades' creations, the Broodmother Zagara was birthed of the terrible ash and heat of Char. Unlike most Zerg, Broodmothers are capable of complex problem-solving and multi-tasking, and are possessed of the ability to command members of their race with fewer sapient traits. Each Broodmother is an important piece of the greater Zerg organism, able to provide large groups of Zerg with a nearly "independent" perspective.</h4>
+        </div>
+    
+    </div>
+
+    <section data-role="layout" data-id="default">
+        <header data-role="header">
+            <div data-role="navbar"> Zagara</div>
+        </header>
+        <footer data-role="footer">
+            <div data-role="tabstrip">
+                <a href="#habilidades" data-icon="favorites">Habilidades</a>
+                <a href="index.html" data-icon="home">Home</a>
+            </div>
+        </footer>
+    </section>
+
+<div id="habilidades" data-role="view" data-layout="default">
+            <ul id="panelbar">
+                <li class="k-state-active">
+                    <span class="k-link k-state-selected">Habilidades</span>
+                    <div style="padding: 10px;">
+                        <div class="panelhero">
+                            <img src="img/spec1/D.png">
+                            <h2>D: Creep Tumor</h2>
+                            <p> Cooldown: 15s</p>
+                            <p> Lay a Creep Tumor that generates Creep. You and your summons move 20% faster on Creep and restore 1.8125 (+0.3125 per level) Health a second. Tumors last 240 seconds.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/spec1/Q.png">
+                            <h2>Q: Baneling Barrage </h2>
+                            <p> Cooldown: 10s</p>
+                            <p> Launch 4 Banelings that deal 40 (+5 per level) splash damage each.</p>
+                        </div>
+                       <div class="panelhero">
+                            <img src="img/spec1/W.png">
+                            <h2>W: Hunter Killer</h2>
+                            <p> Cooldown: 14s</p>
+                            <p> Summon a Hydralisk to attack a single target, dealing 46 (+6 per level) damage per second. Lasts 8 seconds.</p>
+                            </div>
+                        <div class="panelhero">
+                            <img src="img/spec1/E.png">
+                            <h2>E: Infested Drop </h2>
+                            <p> Cooldown: 12s</p>
+                            <p> Bombard target area with a Zerg Drop Pod for 72 (+12 per level) damage.
+                                The pod spawns 2 Roachlings that deal 15 (+2 per level) damage per second and last for 8 seconds.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/spec1/R1.png">
+                            <h2>R: Devouring Maw</h2>
+                            <p> Cooldown: 100s</p>
+                            <p>Summon a Devouring Maw that deals 99 (+24 per level) damage and devours enemies for 4 seconds. Devoured enemies cannot fight and take 40 (+2 per level) damage per second.</p>
+                        </div>
+                        <div class="panelhero">
+                            <img src="img/spec1/R2.png">
+                            <h2>R: Nydus Network</h2>
+                            <p> Cooldown: 60s</p>
+                            <p> Summon a Nydus Worm at target location that you can enter by right-clicking. While inside, you exit by targeting a Nydus Worm with R or right-clicking near the Worm. Maximum 4 Nydus Worms.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+     </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+
+    <script>
+         var app = new kendo.mobile.Application();
+    </script>
+</body>
+</html>

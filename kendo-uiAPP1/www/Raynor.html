@@ -1,0 +1,88 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/kendo.common.min.css" />
+        <link rel="stylesheet" href="css/kendo.default.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <title>Raynor</title>
+</head>
+<body>
+     <div id="Raynor" data-role="view" data-layout="default">
+        <div class="hero">
+            <h2>Raynor</h2>
+            <h3>Renegade Commander</h3>
+            <img src="img/Raynor.png" id="heroi">
+            <h3>Tipo: Assassin</h3>
+            <h3> História : </h3>
+            <h4>Jim Raynor is the primary Terran protagonist in the StarCraft series and the main character of the series. A former colonial marshal on the backwater planet of Mar Sara, Raynor joins Arcturus Mengsk's revolutionaries in their fight against the tyrannical and corrupt Confederacy of Man, where he develops a relationship with Sarah Kerrigan, Mengsk's second in command. However, he quickly comes to realize that Mengsk is far from the force for good when he abandons Kerrigan and the entire population of a planet to die by the hand of the Zerg to satisfy his own thirst for power.</h4>
+        </div>
+    </div>
+
+<section data-role="layout" data-id="default">
+        <header data-role="header">
+            <div data-role="navbar">Raynor</div>
+        </header>
+        <footer data-role="footer">
+            <div data-role="tabstrip">
+                <a href="#habilidades" data-icon="favorites">Habilidades</a>
+                <a href="index.html" data-icon="home">Home</a>
+            </div>
+        </footer>
+    </section>
+
+<div id="habilidades" data-role="view" data-layout="default">
+    <ul id="panelbar">
+        <li class="k-state-active">
+            <span class="k-link k-state-selected">Habilidades</span>
+            <div style="padding: 10px;">
+                <div class="panelhero">
+                    <img src="img/assa2/D.png">
+                    <h2>Advanced Optics</h2>
+                    <p> Basic Attack range is 20% further than other ranged Heroes, and you see 10% further than other Heroes.</p>
+                </div>
+                <div class="panelhero">
+                    <img src="img/assa2/Q.png">
+                    <h2>Q: Penetrating Round</h2>
+                    <p> Cooldown: 12s</p>
+                    <p> Deals 107 (+22 per level) damage and knocks enemies back.</p>
+                </div>
+               <div class="panelhero">
+                    <img src="img/assa2/W.png">
+                    <h2>W: Inspire</h2>
+                    <p> Cooldown: 10s</p>
+                    <p> Gain 30% bonus Attack Speed for 6 seconds. Nearby allies gain half of the bonus..</p>
+                    </div>
+                <div class="panelhero">
+                    <img src="img/assa2/E.png">
+                    <h2>E: Adrenaline Rush</h2>
+                    <p> Cooldown: 45s</p>
+                    <p> Automatically activates to heal for 200 (+40 per level) when you are below 30% Health.</p>
+                </div>
+                <div class="panelhero">
+                    <img src="img/assa2/R1.png">
+                    <h2>R: Hyperion</h2>
+                    <p> Cooldown: 100s</p>
+                    <p>Order the Hyperion to make a strafing run dealing 31 (+6 per level) damage a second, hitting up to 4 enemies. Also occasionally fires its Yamato Cannon on Structures for 372 (+72 per level) damage. Lasts 12 seconds.</p>
+                </div>
+                <div class="panelhero">
+                    <img src="img/assa2/R2.png">
+                    <h2>R: Raynor's Raiders</h2>
+                    <p> Cooldown: 80s</p>
+                    <p> RSummon two Stealthed Banshees that attack an enemy. Each Banshee deals 20 (+4 per level) damage a second and lasts 22 seconds. Can reactivate the Ability to retarget the Banshees.</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+
+    <script>
+         var app = new kendo.mobile.Application();
+    </script>
+</body>
+</html>
